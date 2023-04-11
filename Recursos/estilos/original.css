@@ -1,0 +1,137 @@
+body{
+    background:  url(/Recursos/imagenes/estadio-de-nou-del-campo-101731772.jpg  );
+    background-attachment: fixed;
+    font-family: 'EB Garamond', serif;
+}
+
+h4{
+    color: rgb(9, 10, 10);
+}
+header{
+    margin-top: -8px;
+    margin-left: -8px;
+    width: 100%;
+    overflow: hidden;
+    background: rgb(78, 110, 129) ;
+    margin-bottom: 20px;
+    position: fixed;
+}
+.wrapper {
+    width: 100%;
+    max-width: 1000px;
+    margin-left: 50px;
+    display: flex;
+    
+
+}
+.logo{
+ 
+    font-size: 38px;
+    display: inline-block;
+    font-weight:bold ;
+    text-align: left;
+
+}
+header nav{
+    display: inline-block;
+    line-height: 70px;
+    margin-left: 70px;
+    text-align: right;
+    margin-left: 35px;
+ 
+}
+header nav a{
+    display: flex;
+    display: inline-block;
+    color: azure;
+    text-decoration: none;
+    line-height: 30px;
+    margin-right: 25px;
+    font-size: 20px;
+    font-weight:bold ;
+    -webkit-transition: all 500ms ease;
+    -o-transition: all 500ms ease;
+    transition:all 500ms ease ;
+}
+header nav a:hover{
+    background: rgb(0, 158, 255);
+    border-radius: 50px;
+
+}
+.jugador{
+    height: 180px;
+    width: 288px;
+    border-top-left-radius: 12%;
+    border-bottom-right-radius: 12%;
+    
+}
+.jugadores{
+    border: 5px solid rgb(176, 174, 168);
+    background-color:rgb(78, 110, 129);
+    margin-left: 19px;
+    margin-right: 10px;
+    margin-top: 25px;
+    display: inline-block;
+    font-size: 18px;
+    border-top-left-radius: 12%;
+    border-bottom-right-radius: 12%;
+    
+}
+main{
+    padding-top: 60px;
+}
+
+.unico{
+    display: flex;
+    justify-content: center
+    ;
+    
+}
+.a{
+    border-radius: 50px;
+    margin-left: 70px;
+    width: 140px;
+    font-size: 20px;
+    margin-bottom: 8px;
+    background-color: rgb(176, 174, 168);
+    display: flex;
+    border-radius: 50px;
+    justify-content: center;
+    text-decoration: none;
+    color: black;
+    font-weight:bold ;
+}
+.container{
+    display: flex;
+    justify-content: center;
+    font-weight:bold ;
+}
+.titulo_seccion{
+    color: aliceblue;
+}
+.copy{
+    color: aliceblue;
+    font-size: 20px;
+    
+}
+.redes_sociales{ 
+    display: flex;
+    justify-content: center;
+}
+.redes_sociales i{
+    font-size: 40px;
+    padding: 0 25px 0 25px;
+}
+
+/*justif-conten  para space araund para acomoda en toda la pantalla los espacios entre los hijos
+flex-wrap para diretion y lo cambia a columnas con el flex
+grow el ancho de los hijos tenga un tamaño
+flex para mostrar en muchas direcciones 
+gap espacio interno de los hijos */
+/*tipo letra font family*/
+/*para centrar font-aling center
+pading margen interno de los elementos
+border redondeado radius
+
+*/
+

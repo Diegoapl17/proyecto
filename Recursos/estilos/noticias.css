@@ -1,0 +1,191 @@
+body{
+    background: url(/Recursos/imagenes/dormount.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    font-family: 'EB Garamond', serif;
+}
+header{
+    margin-top: -120px;
+    margin-left: -8px;
+    width: 100%;
+    overflow: hidden;
+    background: rgb(78, 110, 129) ;
+    margin-bottom: 20px;
+    position: fixed;
+}
+.wrapper {
+    width: 100%;
+    max-width: 1000px;
+    margin-left: 50px;
+    display: flex;
+    
+
+}
+.logo{
+ 
+    font-size: 38px;
+    display: inline-block;
+    font-weight:bold ;
+    text-align: left;
+
+}
+header nav{
+    display: inline-block;
+    line-height: 70px;
+    margin-left: 70px;
+    text-align: right;
+    margin-left: 35px;
+ 
+}
+header nav a{
+    display: flex;
+    display: inline-block;
+    color: azure;
+    text-decoration: none;
+    line-height: 30px;
+    margin-right: 25px;
+    font-size: 20px;
+    font-weight:bold ;
+    -webkit-transition: all 500ms ease;
+    -o-transition: all 500ms ease;
+    transition:all 500ms ease ;
+}
+header nav a:hover{
+    background: rgb(0, 158, 255);
+    border-radius: 50px;
+
+}
+.ll{
+    width: 200px;
+    margin-top: 3%;
+    font-size: 25px;
+    background-color: rgb(179, 255, 174);
+    display: flex;
+    border-radius: 50px;
+    margin-left: 542px;
+    width: 200px;
+    justify-content: center;
+}
+.ll2{
+    width: 200px;
+    margin-top: 3%;
+    font-size: 25px;
+    background-color: rgb(179, 255, 174);
+    display: flex;
+    border-radius: 50px;
+    margin-left: 142px;
+    width: 600px;
+    justify-content: center;
+    
+}
+.ll3{
+    width: 200px;
+    margin-top: 3%;
+    font-size: 25px;
+    background-color: rgb(179, 255, 174);
+    display: flex;
+    border-radius: 50px;
+    margin-left:542px;
+    width: 600px;
+    justify-content: center;
+    
+}
+.titulos{
+    background-color: rgb(152, 223, 214);
+    border-radius: 50px;
+    display: flex;
+    justify-content: center;
+    width: 300px;
+    margin-left: 492px;
+    
+}
+.numero{
+    display: inline-block;
+    justify-content: center;
+    margin-bottom: 45px;
+}
+
+
+img{
+    border: 5px solid rgb(216, 216, 216);
+    height: 310px;
+    width: 390px;
+    white-space: 560px;
+    margin-top: -7000px;
+    margin-left: 112px;
+    border-top-left-radius: 12%;
+    border-bottom-right-radius: 12%;
+    
+
+}
+.img2{
+    border: 5px solid rgb(216, 216, 216);
+    display: flex;
+    margin-top: -317px;
+    margin-right: 24px;
+    margin-left: 60.3%;
+    font-size: 23px; 
+
+}
+.texto{
+    border: 3px solid rgb(3, 3, 3);
+    margin-top: 22px;
+    margin-left: 510px;
+    margin-right: 130px;
+    background-color: rgb(187, 194, 194);
+    font-size: 23px; 
+    
+
+}
+.texto2{
+    display: flex;
+    border: 3px solid rgb(3, 3, 3);
+    font-size: 23px;
+    background-color: rgb(187, 194, 194);
+    margin-left: 110px;
+    margin-right: 527px;
+    margin-top: 22px;
+    
+}
+.contenedor{
+    margin-top: 120px;
+}
+.ii{
+
+    display: inline-block;
+    margin-bottom: 45px;
+}
+.container{
+    display: flex;
+    justify-content: center;
+    font-weight:bold ;
+    margin-top: 50px;
+}
+.titulo_seccion{
+    color: aliceblue;
+}
+.copy{
+    color: aliceblue;
+    font-size: 20px;
+    
+}
+.redes_sociales{ 
+    display: flex;
+    justify-content: center;
+}
+.redes_sociales i{
+    font-size: 40px;
+    padding: 0 25px 0 25px;
+}
+.otros{
+    display: flex;
+    text-align: center;
+    margin-top: 50px;
+    border-radius: 50px;
+    width: 300px;
+    background-color: rgb(179, 255, 174);
+    margin-bottom: -50px;
+
+  
+}
